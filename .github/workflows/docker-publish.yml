@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/employee-management-app:latest
+          tags: sunilmishra18/employee-management-app:latest
