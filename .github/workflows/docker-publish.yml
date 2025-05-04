@@ -3,7 +3,7 @@ name: Docker Build and Push
 on:
   push:
     branches:
-      - deploy # Triggers only on push to the 'deploy' branch
+      - main # Triggers only on push to the 'main' branch
 
 jobs:
   build-and-push:
